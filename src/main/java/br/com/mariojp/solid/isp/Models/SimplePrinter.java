@@ -1,4 +1,4 @@
-package br.com.mariojp.solid.isp;
+package br.com.mariojp.solid.isp.Models;
 
 import br.com.mariojp.solid.isp.Interfaces.IPrinter;
 
