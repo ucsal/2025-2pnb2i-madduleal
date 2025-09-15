@@ -8,6 +8,6 @@ public class DeviceTest {
     void print_should_not_require_scan() {
         var svc = new OfficeService(new SimplePrinter());
         assertDoesNotThrow(() -> svc.printReport("Relatório"),
-                "Após refatoração, não deve chamar scan para imprimir");
+                "Após refatoração, não deve chamar scan para imprimir.");
     }
 }
